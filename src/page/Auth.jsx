@@ -3,7 +3,6 @@ import SignIn from '../components/auth/SignIn';
 import { useHistory } from "react-router-dom";
 import styles from './Auth.module.css';
 
-
 const Auth = ({authService}) => {   
     const history = useHistory();
 
