@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "Cyberpunk";
+  src: url("../font/Cyberpunk.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MapoHongdaeFreedom";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoHongdaeFreedomA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+
+/* font-family: "Rajdhani", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+
+/* font-family: 'VT323', monospace; */
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+:root {
+  /* box-size */
+  --auth-box-width: 400px;
+  --auth-box-max-h: 600px;
+  --auth-box-min-h: 500px;
+  --item-min-height: 120px;
+  --section-loading-width: 250px;
+  --section-loading-height: 50px;
+  --box-hypotenuse: 22.627416px;
+
+  /* btn-size */
+  --edit-btns-min-width: 220px;
+  --polygon-btn-width: 250px;
+  --polygon-btn-height: 70px;
+
+  /* font-size */
+  --font-Xlarge: 80px;
+  --font-large: 50px;
+  --font-medium: 20px;
+  --font-small: 16px;
+  --font-micro: 13px;
+  --font-nano: 10px;
+
+  /* space-size */
+  --title-letter-space: -22px;
+  --space-large: 30px;
+  --space-medium: 10px;
+  --space-small: 5px;
+  --space-micro: 3px;
+
+  /* color */
+  --box-bg-color: #1e181e;
+  --border-yelow-color: #fed33f;
+  --border-red-color: #9c3230;
+  --yellow-color: #fcee09;
+  --red-color: #e8615a;
+  --red-dark-color: #b84e49;
+  --black-color: #050a0e;
+  --cyan-color: #00f0ff;
+  --cyan-dark-color: #1fb0dd;
+  --white-color: #fafafa;
+
+  /* hover color */
+  --hover-red-color: #f4908b;
+  --hover-bg-color: #451717;
+  --hover-select-bg-color: #302626;
+
+  /* border */
+  --main-border: 30px solid var(--black-color);
+  --item-border: 2px solid var(--border-red-color);
+  --item-headline-border: 1px solid var(--border-red-color);
+  --edit-border: 2px solid var(--border-yelow-color);
+  --edit-headline-border: 1px solid var(--border-yelow-color);
+  --radius-n: 3px;
+  --radius-small: 2px;
+
+  /* shadow */
+  --btn-box-shadow: 0 0 10px var(--red-color);
+  --edit-hover-shadow: 0 0 10px var(--cyan-color);
+  --title-shadow: 3px 0px 0px var(--cyan-color);
+  --subTitle-shadow: 2px 0px 0px var(--cyan-color);
+}

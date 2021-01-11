@@ -1,9 +1,25 @@
 import React from 'react';
-import './app.css';
+import styles from './App.module.css';
+import Auth from './page/Auth';
+import Profile from './page/Profile';
+import {BrowserRouter, Switch, Route} from "react-router-dom";
 
-function App() {
+
+function App({profileDB, authService, imgUpload}) {
   return (
-    <h1>Hello</h1>
+    <div className={styles.display}>
+      <i className={`${styles.vision} fas fa-low-vision`}></i>
+      <BrowserRouter>
+        <Switch>
+          <Route path={["/", "/login"]} exact>
+            <Auth authService={authService} />
+          </Route>
+          <Route path="/profile" exact>
+            <Profile profileDB={profileDB} authService={authService} imgUpload={imgUpload} />
+          </Route>
+        </Switch>
+      </BrowserRouter>
+    </div>   
   );
 }
 

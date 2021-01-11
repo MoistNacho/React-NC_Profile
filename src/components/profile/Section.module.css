@@ -1,0 +1,72 @@
+@import "../../base/style.css";
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 50%;
+  height: 100%;
+  padding: calc(var(--space-medium) * 2);
+}
+
+.title {
+  font-family: "Rajdhani", sans-serif;
+  color: var(--cyan-color);
+  text-shadow: 0 0 10px var(--cyan-color);
+  margin: 0;
+}
+
+.border {
+  width: 100%;
+  height: 2px;
+  background-color: tomato;
+  box-shadow: 0 0 5px var(--red-color);
+  margin-top: var(--space-small);
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3% 10%;
+  overflow: scroll;
+}
+
+.box::-webkit-scrollbar {
+  display: none;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes load {
+  0% {
+    left: 0;
+    height: 30px;
+    width: 15px;
+  }
+  50% {
+    height: 8px;
+    width: 40px;
+  }
+  100% {
+    left: 235px;
+    height: 30px;
+    width: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    max-height: 50%;
+    padding: var(--space-medium);
+  }
+  .title {
+    top: 4%;
+  }
+}

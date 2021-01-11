@@ -1,0 +1,53 @@
+@import "./base/style.css";
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: "Rajdhani", sans-serif;
+  background-color: var(--yellow-color);
+  margin: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font-family: "Rajdhani", sans-serif;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+select {
+  border: none;
+}
+
+.display {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display::-webkit-scrollbar {
+  display: none;
+}
+
+.vision {
+  font-size: var(--font-large);
+  color: var(--black-color);
+  position: fixed;
+  bottom: 5%;
+  right: var(--space-medium);
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 768px) {
+  .vision {
+    font-size: calc(var(--font-medium) * 1.2);
+  }
+}
