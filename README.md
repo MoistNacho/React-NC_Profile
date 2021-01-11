@@ -4,7 +4,7 @@
 
 ## Demo
 
-> https://moistnacho.github.io/React-NC_Profile/
+> https://nc-profile.netlify.app
 
 ## Tools
 
