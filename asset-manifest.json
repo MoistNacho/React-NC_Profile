@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-NC_Profile/static/css/main.52f26c39.chunk.css",
+    "main.js": "/React-NC_Profile/static/js/main.b956a76d.chunk.js",
+    "main.js.map": "/React-NC_Profile/static/js/main.b956a76d.chunk.js.map",
+    "runtime-main.js": "/React-NC_Profile/static/js/runtime-main.f5b20499.js",
+    "runtime-main.js.map": "/React-NC_Profile/static/js/runtime-main.f5b20499.js.map",
+    "static/js/2.f95be51f.chunk.js": "/React-NC_Profile/static/js/2.f95be51f.chunk.js",
+    "static/js/2.f95be51f.chunk.js.map": "/React-NC_Profile/static/js/2.f95be51f.chunk.js.map",
+    "index.html": "/React-NC_Profile/index.html",
+    "static/css/main.52f26c39.chunk.css.map": "/React-NC_Profile/static/css/main.52f26c39.chunk.css.map",
+    "static/js/2.f95be51f.chunk.js.LICENSE.txt": "/React-NC_Profile/static/js/2.f95be51f.chunk.js.LICENSE.txt",
+    "static/media/Preview.module.css": "/React-NC_Profile/static/media/Cyberpunk.ce09ddf4.ttf",
+    "static/media/Auth.module.css": "/React-NC_Profile/static/media/bg.f559a871.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5b20499.js",
+    "static/js/2.f95be51f.chunk.js",
+    "static/css/main.52f26c39.chunk.css",
+    "static/js/main.b956a76d.chunk.js"
+  ]
+}
