@@ -183,3 +183,10 @@
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 420px) {
+  .btn {
+    width: calc(var(--polygon-btn-width) / 1.05);
+    height: calc(var(--polygon-btn-height) / 1.05);
+  }
+}

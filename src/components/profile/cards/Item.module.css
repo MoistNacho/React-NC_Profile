@@ -106,3 +106,13 @@
     padding: 0.4rem;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .message {
+    max-height: 50%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}

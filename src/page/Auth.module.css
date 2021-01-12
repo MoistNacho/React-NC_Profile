@@ -59,3 +59,17 @@
   right: 5%;
   bottom: 5%;
 }
+
+@media screen and (max-width: 420px) {
+  .section {
+    width: 95%;
+  }
+
+  .title {
+    font-size: calc(var(--font-Xlarge) / 1.2);
+    letter-spacing: calc(var(--title-letter-space) / 1.2);
+  }
+  .subTitle {
+    font-size: calc(var(--font-large) / 1.5);
+  }
+}

@@ -70,3 +70,9 @@
     top: 4%;
   }
 }
+
+@media screen and (max-width: 420px) {
+  .box {
+    padding: 3% 0%;
+  }
+}

@@ -165,8 +165,15 @@ button {
   .info_message {
     margin-left: calc(var(--space-medium));
   }
+}
 
-  .textarea {
+@media screen and (max-width: 550px) {
+  .item {
     width: 100%;
+    padding: 0.4rem;
+  }
+
+  .border {
+    margin-bottom: var(--space-small);
   }
 }
