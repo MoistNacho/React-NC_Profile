@@ -9,7 +9,7 @@ function App({profileDB, authService, imgUpload}) {
   return (
     <div className={styles.display}>
       <i className={`${styles.vision} fas fa-low-vision`}></i>
-      <BrowserRouter basename={process.env.REACT_APP_PUBLIC_URL}>
+      <BrowserRouter >
         <Switch>
           <Route path={["/", "/login"]} exact>
             <Auth authService={authService} />
